@@ -3,6 +3,8 @@ ServiceNow CRUD Permission Tester
 Tests Create, Read, Update, Delete permissions across ITSM and CSM modules.
 Cleans up all created records after testing.
 
+*IF ADMIN ACCOUNT, OTHERWISE WILL GIVE 403 ERROR*
+
 Usage:
     python snow_permission_test.py --instance yourinstance \
                                    --username admin --password secret
